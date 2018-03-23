@@ -23,6 +23,8 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<commons.version>3.4</commons.version>
+
+		<spring.fox.version>2.4.0</spring.fox.version>
 	</properties>
 
 	<dependencies>
@@ -54,6 +56,21 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>${commons.version}</version>
 		</dependency>
+
+		<!--DOCUMENTATION OF MICROSERVICES-->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>${spring.fox.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>${spring.fox.version}</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>

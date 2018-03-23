@@ -1,4 +1,4 @@
-package com.ps.roomservice;
+package com.ps.services.room;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

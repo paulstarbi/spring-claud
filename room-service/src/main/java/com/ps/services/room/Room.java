@@ -1,4 +1,4 @@
-package com.ps.roomservice;
+package com.ps.services.room;
 
 
 import javax.persistence.*;
